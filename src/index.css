@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.input {
+  @apply border px-2 py-1 rounded w-full;
+}
+body {
+  background-image: url('/calendar-bg.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.btn {
+  @apply bg-blue-500 text-white px-4 py-1 rounded hover:bg-blue-600;
+}

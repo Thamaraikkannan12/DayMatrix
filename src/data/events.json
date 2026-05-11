@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Team Meeting",
+    "date": "2025-06-24",
+    "time": "10:00 AM",
+    "duration": "1h"
+  },
+  {
+    "title": "Code Review",
+    "date": "2025-06-24",
+    "time": "2:00 PM",
+    "duration": "1h"
+  },
+  {
+    "title": "Design Sync",
+    "date": "2025-06-26",
+    "time": "4:00 PM",
+    "duration": "30m"
+  }
+]
