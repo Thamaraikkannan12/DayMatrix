@@ -18,7 +18,7 @@ const Calendar = () => {
     });
 
     upcoming.forEach((event) => {
-      alert(`🔔 Reminder: ${event.title} starts at ${event.time}`);
+      alert(`🔔 Reminder:  ${event.title} starts at ${event.time}`);
     });
   };
 
@@ -106,8 +106,8 @@ const Calendar = () => {
 
                       {isSelected && (
                         <div className="mt-1 space-y-1">
-                          <div>🕒 {event.time}</div>
-                          <div>⏱ {event.duration}</div>
+                          <div>🕒  {event.time}</div>
+                          <div>⏱  {event.duration}</div>
                           <div className="space-x-2">
                             <button
                               onClick={(e) => {
